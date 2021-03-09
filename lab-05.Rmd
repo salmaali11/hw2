@@ -117,7 +117,7 @@ nobel_living_science %>%
 
 
 ```{r}
-nobel_living_science <- nobel_living_science %>% mutate(born_country_us = if_else(born_country == "USA", "USA", "Other"))
+
 
 
 ```
