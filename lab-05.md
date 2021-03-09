@@ -1,14 +1,15 @@
 Lab 05 - Nobel laureates
 ================
 
-Team Name:
+Team Name:DS6
 
 Team Members - Name and Student ID
+
+1.salma ali 2201002881
 
 1.  
 2.  
 3.  
-4.  
 
 ## Packages
 
@@ -17,6 +18,9 @@ Load tidyverse below
 ``` r
 library(tidyverse)
 ```
+
+    ## Warning in system("timedatectl", intern = TRUE): running command 'timedatectl'
+    ## had status 1
 
 ## Data
 
@@ -40,7 +44,8 @@ dim(nobel)
 
     ## [1] 935  26
 
-Each row represents information about a nobel prize winner.
+935 obseration 26 vairables Each row represents information about a
+nobel prize winner.
 
 1.  Create a new data frame called `nobel_living` that filters for
 
